@@ -1,0 +1,74 @@
+
+.container-fluid {
+  margin-top: 15px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.osdiv {
+  width: 100%;
+  height: 600px;
+  margin-left: -15px;
+  border: 1px solid black;
+}
+
+.osdiv-ph {
+  width: 100%;
+  height: 600px;
+  margin-left: -15px;
+  text-align: center;
+  line-height: 600px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+
+.well {
+  border-radius: 0px;
+}
+
+.nav-tabs {
+  margin-bottom: 15px;
+}
+
+.inof-head {
+  width: 100%; 
+  text-align:center;
+  font-size: 40px;
+  color: white;
+  background-color: #2e6da4;
+  border-radius: 30px;
+}
+
+.sure-head {
+  width: 100%; 
+  text-align:center;
+  font-size: 40px;
+  color: white;
+  background-color: #ec971f;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.huebox:hover {
+  box-shadow: 0px 0px 8px #2e6da4;
+}
+
+.oldhue-box {
+  width: 100%; 
+  height: 30px;
+  line-height: 30px;
+  text-align:center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.huemodal-h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.example-modal-text {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

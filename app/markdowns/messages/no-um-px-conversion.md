@@ -1,0 +1,1 @@
+Since your slide does not provide information about the conversion from &#181;m to pixels, we use a default pixel size of tiles given by the classifier: {patch_size_px} x {patch_size_px}. Hence, the tiles might not accurately be of correct size in &#181;m which likely <b style='color:rgb(201,48,44)'>reduces classification accuracy</b>.

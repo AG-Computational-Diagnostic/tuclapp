@@ -1,0 +1,44 @@
+---
+title: "Slide Result"
+author: "Generated with TUCL App"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+heatmap_w <- imager::width(heatmap[[1]]) / knitr::opts_chunk$get("dpi")
+heatmap_h <- imager::height(heatmap[[1]]) / knitr::opts_chunk$get("dpi")
+```
+
+**For research use only!**
+
+**Classifier:** `r classifier`
+
+## Result
+
+### Prediction threshold (threshold = `r pred_thresh`)
+
+```{r, fig.width = 12, fig.height=4}
+hist(
+  pred_prob[[1]],
+  main = "",
+  ylab = "Count",
+  xlab = "Prediction",
+  breaks = 20,
+  col = "darkgray",
+  xlim = c(0,1)
+)
+abline(v = pred_thresh, col="blue", lwd=2, lty=2)
+```
+
+### Heatmap (overlay amount = `r mix_prop`)
+
+```{r, fig.width=heatmap_w, fig.height=heatmap_h}
+par(mar=c(0,0,0,0))
+plot(heatmap[[1]], axes = FALSE, rescale=FALSE)
+```
+
+### Summary
+
+`r classes_table_str`
+
+<br>[END OF REPORT]

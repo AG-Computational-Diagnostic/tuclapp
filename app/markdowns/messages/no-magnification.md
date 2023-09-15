@@ -1,0 +1,1 @@
+The uploaded slide does not provide information about its magnification. If the magnification differs from the one we used to train the classifier with, there is likely <b style='color:rgb(201,48,44)'>reduced classification accuracy</b>.

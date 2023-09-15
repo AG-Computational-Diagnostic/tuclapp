@@ -1,0 +1,9 @@
+{
+  "patch_size_um": 20, 
+  "patch_size_px": 20, 
+  "magnification": 20, 
+  "scale_imgs": true,
+  "app": "_mine_", 
+  "input_shape": [20, 20, 3], 
+  "n_classes": 2
+}

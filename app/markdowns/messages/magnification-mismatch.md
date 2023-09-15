@@ -1,0 +1,1 @@
+The uploaded slide has a magnification different than the one we used to train our classifier with ({upload$magnification} &#8800; {classifier_meta$magnification}). This will likely cause <b style='color:rgb(201,48,44)'>reduced classification accuracy</b>.

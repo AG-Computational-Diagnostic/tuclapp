@@ -1,0 +1,4 @@
+
+### Patch Class Visualization
+
+Below a raw plot of the selected and confirmed patch and a heat map overlay on the left. If the patch is classified as empty, the right heat map will indicate which regions of the patch are deemed empty and non-empty. If the patch is classified non-empty you can select a class and compute a explainer on that patch and class. We use the [GradCAM++](https://arxiv.org/abs/1710.11063) algorithm from the [tf-keras-vis](https://github.com/keisen/tf-keras-vis) python module for the explainer.  You can adopt the amount of overlay with the slider below the raw patch plot.

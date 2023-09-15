@@ -1,0 +1,1 @@
+The uploaded slide does not provide information on the conversion of &#181;m to pixel. Hence, we use the size we used to train the classifier with ({patch_size_px[1]} x {patch_size_px[2]} px). Since this does probably not represent the correct tile size of &#181;m in your upload, there will likely be <b style='color:rgb(201,48,44)'>reduced classification accuracy</b>.
